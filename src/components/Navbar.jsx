@@ -129,7 +129,18 @@ const NavBar = () => {
   return (
     <div
       ref={navContainerRef}
-      className="fixed left-0 right-0 top-4 z-50 transition-all duration-700 mx-10"
+      className={clsx(
+        "fixed left-0 right-0 top-4 z-50 transition-all duration-700 mx-10",
+      )}
+      style={{
+        // Glass effect: semi-transparent, blur, border, subtle shadow
+        background: "rgba(20, 24, 40, 0.55)",
+        backdropFilter: "blur(18px)",
+        WebkitBackdropFilter: "blur(18px)",
+        borderRadius: "18px",
+        border: "1.5px solid rgba(255,255,255,0.13)",
+        boxShadow: "0 4px 32px 0 rgba(0,0,0,0.12)",
+      }}
     >
       <header className="w-full">
         <nav className="flex w-full h-16 items-center justify-between p-4 rounded-lg">

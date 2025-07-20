@@ -102,7 +102,7 @@ const Contact = () => {
   }), []);
 
   return (
-    <div id="contact" className="relative my-20 min-h-96 w-screen px-10 bg-[#E49906]">
+    <div id="contact" className="relative my-20 min-h-96 w-screen px-10">
       <img src="/img/char_bg.webp" alt="appBg" className="absolute top-0 left-0 w-full h-full object-cover" />
       <div
         ref={containerRef}
