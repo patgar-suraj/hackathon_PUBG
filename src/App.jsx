@@ -8,7 +8,7 @@ import Footer from "./components/Footer";
 import PubgOutfit from "./components/PubgOutfit";
 import PubgGuns from "./components/PubgGuns";
 import PubgVehicle from "./components/PubgVehicle";
-import Guns from "./components/Guns";
+import Inventory from "./components/Inventory";
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
       <About />
       <Features />
       <Story />
-      <Guns />
+      <Inventory />
       {/* <PubgOutfit /> */}
       {/* <PubgGuns /> */}
       {/* <PubgVehicle /> */}

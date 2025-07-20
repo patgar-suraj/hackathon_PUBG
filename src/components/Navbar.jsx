@@ -6,7 +6,7 @@ import { GiSupersonicBullet } from "react-icons/gi";
 import Button from "./Button";
 
 // Move NAV_ITEMS outside of component and do NOT use hooks at top-level
-const NAV_ITEMS = ["Home", "About", "Features", "Theme_Mode", "Contact"];
+const NAV_ITEMS = ["Home", "About", "Features", "Inventory", "Contact"];
 
 // Extract showDesktopNav logic to a custom hook to avoid using hooks inside render
 function useShowDesktopNav() {
